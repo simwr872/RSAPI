@@ -15,6 +15,22 @@ Use Python 3.6, install [tornado](https://www.tornadoweb.org/).
 ## Using RSAPI
     $ python server.py
 
+## Features
+Here are webm's of some features that were recorded in early development.
+* [Bank evaluator](https://giant.gfycat.com/FavoriteFabulousEasternglasslizard.webm)
+* [Buy and sell items](https://giant.gfycat.com/NimbleGiantDwarfmongoose.webm)
+* [Checking item values](https://giant.gfycat.com/NeglectedShamelessDairycow.webm)
+  * Note: Capable of checking **every** tradeable item in less than 25 seconds.
+* [Chat](https://giant.gfycat.com/DecisiveDismalFinwhale.webm)
+
+RSAPI has endless potential, it can automate anything companion app can do. Examples of possible implementations:
+* Todays ____. _(Vis wax, araxxor path, travelling merchant...)_
+* Sit in multiple friends chat and PM upon event. _(Ghost peng, portables...)_
+* Merchanting bot.
+* PM multiple people at the same time. _(Personalized clan notification, raid group notifier...)_
+* World tracker. (Build a databse of users world preferences?)
+* Reliable name tracker. (Adding a friend reveals their last name)
+
 ## Unfortunate news
 ![Mod Lyon news 1](https://i.gyazo.com/e899cd54ab3dfc339e294340607b694d.png)
 ![Mod Lyon news 1](https://i.gyazo.com/ef1a0a39368a44cebd2a6db75b625158.png)
