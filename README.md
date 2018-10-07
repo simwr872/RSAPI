@@ -9,6 +9,7 @@ Every week the Companion App gets a new obfuscation done upon it. Making the fun
 
 ## Requirements
 Use Python 3.6, install [tornado](https://www.tornadoweb.org/).
+
     $ pip install tornado
 
 ## Using RSAPI
