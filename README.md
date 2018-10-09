@@ -17,9 +17,9 @@ Note that what is uploaded to GitHub is the core of RSAPI. This includes the deo
 
 1. Start the server `python server.py`.
 2. Open `docs/comapp.html` in a browser. _(Use FireFox. Chrome is too secure...)_
-3. Open the FireFox console and login with a RuneScape account `login("<email>", "<passwd>")`. _(Authenticator? Edit `docs/comapp.js:124`, 3rd parameter is the authenticator code)_.
+3. Open the FireFox console and login with a RuneScape account `login("<email>", "<passwd>")`. _(Authenticator? Edit [`docs/comapp.js:124`](https://github.com/simwr872/RSAPI/blob/master/rsapi/docs/comapp.js#L124), 3rd parameter is the authenticator code)_.
 
-If you now login with a different account on RuneScape you should see the RSAPI account sitting in lobby. Messaging the RSAPI account should give you the exact same message back. You can also message anyone from the RSAPI account by visiting [http://localhost/msg?name=<NAME>&message=<MESSAGE>](#).
+If you now login with a different account on RuneScape you should see the RSAPI account sitting in lobby. Messaging the RSAPI account should give you the exact same message back. You can also message anyone from the RSAPI account by visiting [http://localhost/msg?name=NAME&message=MESSAGE](#).
 
 ## Expanding
 I recommend using the official Companion App in Google Chrome and using the breakpoints function. The file you are looking for is `Bootstrap.js`. Jagex decided to on every update change _(almost)_ every function- and variable-name aswell as the order of the code. However, the code is separated into major objects in which their internal structure does not change. What RSAPI does is find a pattern in this parent object and simply create a global variabe to point there. The user then only needs to know in what spot the desired function comes. See `docs/comapp.js:111` for examples of function name remapping.
