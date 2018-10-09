@@ -41,6 +41,7 @@ RSAPI has endless potential, it can automate anything companion app can do. Exam
 * PM multiple people at the same time. _(Personalized clan notification, raid group notifier...)_
 * World tracker. _(Build a database of users world preferences?)_
 * Reliable name tracker. _(Adding a friend reveals their last name)_
+* Regular ComApp without lag. _(It is Jagex's way of loading UI that makes ComApp slow)_
 
 ## Unfortunate news
 ![Mod Lyon news 1](https://i.gyazo.com/e899cd54ab3dfc339e294340607b694d.png)
