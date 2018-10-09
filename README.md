@@ -39,7 +39,7 @@ RSAPI has endless potential, it can automate anything companion app can do. Exam
 * Sit in multiple friends chat and PM upon event. _(Ghost peng, portables...)_
 * Merchanting bot.
 * PM multiple people at the same time. _(Personalized clan notification, raid group notifier...)_
-* World tracker. _(Build a databse of users world preferences?)_
+* World tracker. _(Build a database of users world preferences?)_
 * Reliable name tracker. _(Adding a friend reveals their last name)_
 
 ## Unfortunate news
