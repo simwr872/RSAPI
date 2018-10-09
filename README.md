@@ -33,6 +33,7 @@ Here are webm's of some features that were recorded in early development.
 * [Checking item values](https://giant.gfycat.com/NeglectedShamelessDairycow.webm)
   * Note: Capable of checking **every** tradeable item in less than 25 seconds.
 * [Chat](https://giant.gfycat.com/DecisiveDismalFinwhale.webm)
+* [Dailyscape](https://giant.gfycat.com/EnchantedYawningCuckoo.webm)
 
 RSAPI has endless potential, it can automate anything companion app can do. Examples of possible implementations:
 * Todays ____. _(Vis wax, araxxor path, travelling merchant...)_
