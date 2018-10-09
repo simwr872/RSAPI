@@ -13,7 +13,7 @@ Use Python 3.6, install [tornado](https://www.tornadoweb.org/).
     $ pip install tornado
 
 ## Using RSAPI
-Note that what is uploaded to GitHub is the core of RSAPI. This includes the deobfuscator, function mapping and patterns for some features bundled into a concept to provide it as a web-service. This is far from all RSAPI is capable of, see section Expanding for more information.
+Note that what is uploaded to GitHub is the core of RSAPI. This includes the deobfuscator, function mapping and patterns for some features bundled into a concept to provide it as a web-service. This is far from all RSAPI is capable of, see section [expanding](https://github.com/simwr872/RSAPI#expanding) for more information.
 
 1. Start the server `python server.py`.
 2. Open `docs/comapp.html` in a browser. _(Use FireFox. Chrome is too secure...)_
