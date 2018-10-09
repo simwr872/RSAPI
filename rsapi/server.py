@@ -3,7 +3,7 @@ import tornado.ioloop
 import tornado.httpserver
 import tornado.template
 import websocket
-import api.world
+import api.message
 import bootstrap
 
 class Handler(tornado.web.RequestHandler):
@@ -18,7 +18,7 @@ class Handler(tornado.web.RequestHandler):
 if __name__ == "__main__":
     application = tornado.web.Application([
         (r"/ws", websocket.Handler),
-        (r"/world", api.world.Handler),
+        (r"/msg", api.message.Handler),
         (r"/bootstrap.js", Handler),
     ])
     http_server = tornado.httpserver.HTTPServer(application)

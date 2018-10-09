@@ -152,3 +152,27 @@ window.warmup = setInterval(() => {
         clearInterval(window.warmup);
     }
 }, 50);
+
+let socket = new WebSocket("ws://localhost/ws?auth=3WeAHJVaS0yMfHFI");
+socket.onopen = function(event){
+    console.log("Websocket connected.");
+}
+
+socket.onmessage = async function(event) {
+    let data = JSON.parse(event.data);
+    let id = data[0];
+    let command = data[1];
+    let response = "";
+    switch(command.split(" ")[0]) {
+        case "msg":
+            let message = command.split(" ");
+            let name = message[1];
+            await chat(name, message.splice(2, message.length).join(" "));
+            response = "ok";
+            break;
+        default:
+            response = "not reckognized";
+            break;
+    }
+    socket.send(JSON.stringify([id, response]));
+}
