@@ -1,3 +1,5 @@
+*Since the Companion App is now officially gone, RSAPI has no use but will remain on GitHub (archived) for sentimental reasons.*
+
 ## RSAPI
 RSAPI uses functions stowed away in the Companion App. The Companion App actually comes with some great functionality but it is hidden behind a terrible application structure with dynamic loading of vital assets and uglified code such as;
 ```javascript
